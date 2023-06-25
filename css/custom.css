@@ -1,0 +1,107 @@
+/* Button style
+==================== */
+.btn-nav {
+  background-color: #b68c5a;
+  border-radius: 0.3rem;
+  color: #fff;
+}
+.btn-nav:hover {
+  background-color: #e48d23;
+}
+
+/* Font awesome button style
+============================ */
+.i-bg {
+  background-color: #b68c5a;
+  padding: 0.5rem 0.6rem;
+  font-size: 0.9rem;
+}
+
+/* Carousel section styles
+============================ */
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: #ffaa0d;
+  border-radius: 1.3rem;
+  padding: 1.3rem;
+  border: 1px solid #ddd;
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #fff;
+}
+
+/* Responsive styles
+==================== */
+@media only screen and (max-width: 576px) {
+  .hero-area {
+    background-image: url("../images/Rectangle 6.png");
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0) 59%,
+        rgba(0, 0, 0, 0.9) 100%
+      ),
+      url("../images/Rectangle 6.png") no-repeat;
+    min-height: 22rem;
+    width: 100%;
+    background-position: center;
+    border-radius: 0.3rem;
+  }
+  .wrapper {
+    display: flex-inline;
+  }
+  .search-btn {
+    padding: 16px 5px;
+    margin-bottom: 4px;
+  }
+
+  .hero-text-wrapper p {
+    width: 100%;
+    text-align: left;
+    text-decoration: normal;
+  }
+  .carousel-caption {
+    top: 0%;
+    transform: translateY(-0%);
+  }
+  .caption-thumbnail {
+    width: 26%;
+    height: 36%;
+    margin-top: -10px;
+  }
+  .legal-practice-area {
+    margin: 1rem 0.5rem;
+  }
+  .carousel-caption-title {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: -12px;
+  }
+  .designation {
+    font-size: 11px;
+    margin-top: -6px;
+    font-weight: 600;
+  }
+  .description {
+    font-size: 11px;
+    margin-top: -6px;
+  }
+  .carousel-image {
+    height: 210px;
+  }
+}
+/* Links style
+================== */
+.links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+.hr {
+  border: 1px solid #444;
+}
